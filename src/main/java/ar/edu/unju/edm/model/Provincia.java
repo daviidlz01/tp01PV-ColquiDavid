@@ -1,25 +1,33 @@
 package ar.edu.unju.edm.model;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Provincia {
-	private int CodigoDeProvincia;
-	private String NombreDeProvincia;
+	
+	private int codigoDeProvincia;
+	private String nombreDeProvincia;
+	
 	public Provincia() {
 		// TODO Auto-generated constructor stub
 	}
-	public int getCodigoDeProvincia() {
-		return CodigoDeProvincia;
-	}
-	public void setCodigoDeProvincia(int codigoDeProvincia) {
-		CodigoDeProvincia = codigoDeProvincia;
-	}
-	public String getNombreDeProvincia() {
-		return NombreDeProvincia;
-	}
-	public void setNombreDeProvincia(String nombreDeProvincia) {
-		NombreDeProvincia = nombreDeProvincia;
-	}
-	
-	
-	
 
+	public int getCodigoDeProvincia() {
+		return codigoDeProvincia;
+	}
+
+	public void setCodigoDeProvincia(int codigoDeProvincia) {
+		this.codigoDeProvincia = codigoDeProvincia;
+	}
+
+	public String getNombreDeProvincia() {
+		return nombreDeProvincia;
+	}
+
+	public void setNombreDeProvincia(String nombreDeProvincia) {
+		this.nombreDeProvincia = nombreDeProvincia;
+	}
+
+	
+	
 }
